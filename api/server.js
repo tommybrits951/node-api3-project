@@ -6,7 +6,7 @@ const usersRouter = require("./users/users-router")
 server.use(express.json())
 
 server.use(logger)
-server.use("/api", usersRouter)
+server.use("/api",usersRouter)
 
 
 server.get('/', (req, res) => {
